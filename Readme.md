@@ -1,31 +1,72 @@
-# Kalkulator-Web
+# 🧮 Kalkulator Web Modern
 
+## 🌟 Deskripsi Projek
+Kalkulator web canggih dengan desain minimalis dan fungsionalitas lengkap. Dibuat dengan teknologi web terkini untuk memberikan pengalaman pengguna yang mulus dan intuitif.
 
-Aplikasi kalkulator berbasis web dengan fitur lengkap.
+## ✨ Fitur Unggulan
+- 🔢 **Operasi Matematika**
+  - Penjumlahan (+)
+  - Pengurangan (-)
+  - Perkalian (×)
+  - Pembagian (÷)
+- 🔧 **Tombol Fungsional**
+  - Ganti tanda (±)
+  - Hitung persentase (%)
+  - Tombol hapus (AC)
+- 🎨 **Desain Modern**
+  - Antarmuka minimalis
+  - Responsif di semua perangkat
+  - Tema warna lembut
 
-## Fitur
+## 🚀 Teknologi
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-- Operasi dasar (tambah, kurang, kali, bagi)
-- Fungsi memori (MC, MR, M+, M-)
-- Tampilan responsif
-- Riwayat perhitungan
+## 🛠️ Instalasi Cepat
 
-## Cara Penggunaan
+### Prasyarat
+- Browser modern
+- Koneksi internet
 
-1. Buka file `index.html` di browser
-2. Gunakan tombol angka dan operasi seperti kalkulator biasa
-3. Gunakan fungsi memori untuk menyimpan hasil perhitungan
+### Langkah Instalasi
+```bash
+# Clone repository
+git clone https://github.com/Sultanrais/Kalkulator-Web.git
 
-## Teknologi yang Digunakan
+# Buka di browser
+open index.html
 
-- HTML5
-- CSS3
-- JavaScript
+![image](https://github.com/user-attachments/assets/604cc023-d122-475e-b5b0-6d90b7750d29)
 
-## Pengembang
+Kalkulator Web
 
-[Sultan Rais]
+🤔 Cara Penggunaan
+Klik tombol angka untuk memasukkan nilai
+Pilih operasi matematika
+Tekan = untuk hasil
+Gunakan tombol tambahan untuk fungsi khusus
 
-## Lisensi
+🔜 Rencana Pengembangan
+[ ] Mode kalkulator scientific
+[ ] Dukungan keyboard
+[ ] Riwayat perhitungan
+[ ] Mode gelap
 
-MIT License
+🤝 Kontribusi
+Kontribusi terbuka! Silakan:
+Fork repository
+Buat branch fitur baru
+Kirim Pull Request
+
+📄 Lisensi
+License: MIT
+
+👨‍💻 Dibuat Oleh
+Sultan Rais
+
+🌐 GitHub: @Sultanrais122
+📧 Email: sultanrais122@gmail.com
+
+🌟 Berikan Dukungan
+Suka projek ini? Berikan ⭐ repository!
