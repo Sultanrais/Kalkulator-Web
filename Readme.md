@@ -17,7 +17,6 @@ Kalkulator web canggih dengan desain minimalis dan fungsionalitas lengkap. Dibua
   - Antarmuka minimalis
   - Responsif di semua perangkat
   - Tema warna lembut
-![Capture](https://github.com/user-attachments/assets/e3aaf2b9-d398-498b-97d1-da4ba6d87f37)
 
 ## 🚀 Teknologi
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
@@ -37,9 +36,7 @@ git clone https://github.com/Sultanrais/Kalkulator-Web.git
 
 # Buka di browser
 open index.html
-
-![Capture](https://github.com/user-attachments/assets/a64f73da-8fd8-44ce-a4da-1cb195f6173f)
-
+![Capture](https://github.com/user-attachments/assets/357139ac-ba3b-40f7-af9d-351623d37b6d)
 
 Kalkulator Web
 
