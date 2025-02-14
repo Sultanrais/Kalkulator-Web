@@ -37,7 +37,8 @@ git clone https://github.com/Sultanrais/Kalkulator-Web.git
 # Buka di browser
 open index.html
 
-![image](https://github.com/user-attachments/assets/604cc023-d122-475e-b5b0-6d90b7750d29)
+![Capture](https://github.com/user-attachments/assets/a64f73da-8fd8-44ce-a4da-1cb195f6173f)
+
 
 Kalkulator Web
 
