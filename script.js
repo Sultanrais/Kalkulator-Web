@@ -1,24 +1,41 @@
-let currentInput = '';
-let memory = 0;
+let currentInput = '0';
 let previousInput = '';
 let operation = null;
+let newCalculation = false;
 
 function appendNumber(number) {
-    currentInput += number;
+    if (newCalculation) {
+        currentInput = '0';
+        newCalculation = false;
+    }
+
+    if (currentInput === '0' && number !== '.') {
+        currentInput = number;
+    } else if (number === '.' && !currentInput.includes('.')) {
+        currentInput += number;
+    } else if (number !== '.') {
+        currentInput += number;
+    }
     updateDisplay();
 }
 
 function setOperation(op) {
+    if (previousInput !== '') {
+        calculate();
+    }
     operation = op;
     previousInput = currentInput;
-    currentInput = '';
+    currentInput = '0';
     updateDisplay();
+    document.getElementById('previous-operand').textContent = `${previousInput} ${operation}`;
 }
 
 function calculate() {
     let result;
     const prev = parseFloat(previousInput);
     const current = parseFloat(currentInput);
+
+    if (isNaN(prev) || isNaN(current)) return;
 
     switch(operation) {
         case '+':
@@ -38,34 +55,29 @@ function calculate() {
     currentInput = result.toString();
     operation = null;
     previousInput = '';
+    newCalculation = true;
+    document.getElementById('previous-operand').textContent = '';
     updateDisplay();
 }
 
 function clearDisplay() {
-    currentInput = '';
+    currentInput = '0';
     previousInput = '';
     operation = null;
+    document.getElementById('previous-operand').textContent = '';
     updateDisplay();
 }
 
 function updateDisplay() {
-    document.getElementById('result').value = currentInput;
+    document.getElementById('current-operand').textContent = currentInput;
 }
 
-// Fungsi Memory
-function clearMemory() {
-    memory = 0;
-}
-
-function recallMemory() {
-    currentInput = memory.toString();
+function toggleSign() {
+    currentInput = (parseFloat(currentInput) * -1).toString();
     updateDisplay();
 }
 
-function addMemory() {
-    memory += parseFloat(currentInput) || 0;
-}
-
-function subtractMemory() {
-    memory -= parseFloat(currentInput) || 0;
+function calculatePercentage() {
+    currentInput = (parseFloat(currentInput) / 100).toString();
+    updateDisplay();
 }
