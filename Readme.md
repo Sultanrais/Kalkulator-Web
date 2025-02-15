@@ -1,71 +1,31 @@
 # 🧮 Kalkulator Web Modern
+Anda seorang asisten junior programmer diminta untuk membuat aplikasi kalkulator sederhana yang dapat melakukan empat operasi dasar matematika: penjumlahan, pengurangan, perkalian, dan pembagian. Aplikasi harus memungkinkan pengguna untuk memasukkan dua angka dan memilih operasi yang diinginkan. Program harus menghitung dan menampilkan hasilnya dengan benar, serta memberikan pesan kesalahan jika terjadi pembagian dengan nol. Anda perlu merancang antarmuka pengguna, mengimplementasikan logika perhitungan, dan melakukan pengujian untuk memastikan aplikasi berjalan dengan lancar tanpa kesalahan. Anda diminta untuk melakukan langkah kerja seperti dibawah ini:
 
-## 🌟 Deskripsi Projek
-Kalkulator web canggih dengan desain minimalis dan fungsionalitas lengkap. Dibuat dengan teknologi web terkini untuk memberikan pengalaman pengguna yang mulus dan intuitif.
+1.  Tentukan Struktur Data Pilih struktur data yang sesuai untuk menyimpan angka dan hasil perhitungan (misalnya variabel atau array untuk menyimpan input angka).
+2.  Rancang Antarmuka Pengguna (UI) a. Desain antarmuka yang memungkinkan pengguna memasukkan dua angka dan memilih operasi matematika (penjumlahan, pengurangan, perkalian, atau 
+    pembagian). b. Gunakan komponen seperti TextBox untuk input angka, dan Button untuk operasi matematika.
+3.  Implementasikan Logika Program a. Tulis kode untuk menangani input pengguna dan memilih operasi berdasarkan tombol yang ditekan. b. Gunakan kondisi if-else atau switch-case untuk 
+    menentukan operasi matematika yang diinginkan dan lakukan perhitungan. c. Pastikan untuk menangani pembagian dengan nol dengan memberi peringatan atau pesan kesalahan.
+4.  Validasi Input Pengguna a. Periksa apakah input yang diberikan oleh pengguna adalah angka yang valid. b. Tangani kasus ketika pengguna memasukkan nilai yang tidak valid atau kosong.
+5.  Tampilkan Hasil a. Setelah operasi matematika selesai, tampilkan hasil perhitungan pada antarmuka pengguna menggunakan Label atau TextBox. b. Berikan pesan kesalahan yang jelas jika 
+    terjadi pembagian dengan nol atau kesalahan lainnya. Anda seorang asisten junior programmer diminta untuk membuat aplikasi kalkulator sederhana yang dapat melakukan empat operasi 
+    dasar matematika: penjumlahan, pengurangan, perkalian, dan pembagian. Aplikasi harus memungkinkan pengguna untuk memasukkan dua angka dan memilih operasi yang diinginkan. Program 
+    harus menghitung dan menampilkan hasilnya dengan benar, serta memberikan pesan kesalahan jika terjadi pembagian dengan nol. Anda perlu merancang antarmuka pengguna, 
+    mengimplementasikan logika perhitungan, dan melakukan pengujian untuk memastikan aplikasi berjalan dengan lancar tanpa kesalahan. Anda diminta untuk melakukan langkah kerja seperti 
+    dibawah ini:
+6.  Tentukan Struktur Data Pilih struktur data yang sesuai untuk menyimpan angka dan hasil perhitungan (misalnya variabel atau array untuk menyimpan input angka).
+7.  Rancang Antarmuka Pengguna (UI) a. Desain antarmuka yang memungkinkan pengguna memasukkan dua angka dan memilih operasi matematika (penjumlahan, pengurangan, perkalian, atau 
+    pembagian). b. Gunakan komponen seperti TextBox untuk input angka, dan Button untuk operasi matematika.
+8.  Implementasikan Logika Program a. Tulis kode untuk menangani input pengguna dan memilih operasi berdasarkan tombol yang ditekan. b. Gunakan kondisi if-else atau switch-case untuk 
+    menentukan operasi matematika yang diinginkan dan lakukan perhitungan. c. Pastikan untuk menangani pembagian dengan nol dengan memberi peringatan atau pesan kesalahan.
+9.  Validasi Input Pengguna a. Periksa apakah input yang diberikan oleh pengguna adalah angka yang valid. b. Tangani kasus ketika pengguna memasukkan nilai yang tidak valid atau kosong.
+    Tampilkan Hasil a. Setelah operasi matematika selesai, tampilkan hasil perhitungan pada antarmuka pengguna menggunakan Label atau TextBox. b. Berikan pesan kesalahan yang jelas jika
+10. terjadi pembagian dengan nol atau kesalahan lainnya.
+ <h3>Berikut adalah gambaran kalkulatornya: </h3><br>
+![Capture](https://github.com/user-attachments/assets/930c0b10-1a3b-4114-96d7-a5a1f0f98a13)
 
-## ✨ Fitur Unggulan
-- 🔢 **Operasi Matematika**
-  - Penjumlahan (+)
-  - Pengurangan (-)
-  - Perkalian (×)
-  - Pembagian (÷)
-- 🔧 **Tombol Fungsional**
-  - Ganti tanda (±)
-  - Hitung persentase (%)
-  - Tombol hapus (AC)
-- 🎨 **Desain Modern**
-  - Antarmuka minimalis
-  - Responsif di semua perangkat
-  - Tema warna lembut
+ <h3>Foto Pembuat:</h3><br>
+![WhatsApp Image 2025-02-13 at 09 57 53](https://github.com/user-attachments/assets/e32324b4-df07-4aac-a447-46c816845567)
 
-## 🚀 Teknologi
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 🛠️ Instalasi Cepat
 
-### Prasyarat
-- Browser modern
-- Koneksi internet
-
-### Langkah Instalasi
-```bash
-# Clone repository
-git clone https://github.com/Sultanrais/Kalkulator-Web.git
-
-# Buka di browser
-open index.html
-![Capture](https://github.com/user-attachments/assets/357139ac-ba3b-40f7-af9d-351623d37b6d)
-
-Kalkulator Web
-
-🤔 Cara Penggunaan
-Klik tombol angka untuk memasukkan nilai
-Pilih operasi matematika
-Tekan = untuk hasil
-Gunakan tombol tambahan untuk fungsi khusus
-
-🔜 Rencana Pengembangan
-[ ] Mode kalkulator scientific
-[ ] Dukungan keyboard
-[ ] Riwayat perhitungan
-[ ] Mode gelap
-
-🤝 Kontribusi
-Kontribusi terbuka! Silakan:
-Fork repository
-Buat branch fitur baru
-Kirim Pull Request
-
-📄 Lisensi
-License: MIT
-
-👨‍💻 Dibuat Oleh
-Sultan Rais
-
-🌐 GitHub: @Sultanrais122
-📧 Email: sultanrais122@gmail.com
-
-🌟 Berikan Dukungan
-Suka projek ini? Berikan ⭐ repository!
