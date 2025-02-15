@@ -22,6 +22,8 @@ Anda seorang asisten junior programmer diminta untuk membuat aplikasi kalkulator
     Tampilkan Hasil a. Setelah operasi matematika selesai, tampilkan hasil perhitungan pada antarmuka pengguna menggunakan Label atau TextBox. b. Berikan pesan kesalahan yang jelas jika
 10. terjadi pembagian dengan nol atau kesalahan lainnya.
  <h3>Berikut adalah gambaran kalkulatornya: </h3><br>
-![Capture](https://github.com/user-attachments/assets/8b1f5bd6-4ec2-4e93-8699-f6861272d943)
+![Capture](https://github.com/user-attachments/assets/d8632ffb-8def-424e-b9f9-57e9269f386b)
+
  <h3>Foto Pembuat:</h3><br>
-![WhatsApp Image 2025-02-13 at 09 57 53](https://github.com/user-attachments/assets/e32324b4-df07-4aac-a447-46c816845567)
+![WhatsApp Image 2025-02-13 at 09 57 53](https://github.com/user-attachments/assets/cb79c0ce-e9f7-422f-930c-b6d320fc19cf)
+
